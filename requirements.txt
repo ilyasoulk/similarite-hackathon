@@ -4,3 +4,4 @@ matplotlib
 s3fs
 seaborn
 matplotlib
+torch
