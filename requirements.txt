@@ -1,3 +1,6 @@
 kaggle
-panda
+pandas
+matplotlib
+s3fs
+seaborn
 matplotlib
