@@ -64,7 +64,13 @@ Cette partie nous a permis de mieux comprendre les données mises à notre dispo
 
 Cette partie a servi surtout à mieux comprendre et tester les performances de notre modèle.
 
-documentation internet resnnet
+Il est important d'avoir un ensemble de données d'entraînement équilibré, pour compenser ce déséquilibre nous avons opté pour : 
+
+- Échantillonnage aléatoire: nous avons d'abord groupé le train et le test set puis `... `(sous-échantillonner les classes majoritaires et suréchantillonner les classes minoritaires. 
+
+
+- Pondération des classes: cela consisterait à pondérer les classes pendant l'entraînement. Chaque classe minoritaire reçoit un poids plus important pendant l'entraînement, ce qui permet au modèle de mieux apprendre les caractéristiques de ces classes. Toutefois, nous n'avons pas implémenté cette méthode.
+
 
 
 # Jour 2
