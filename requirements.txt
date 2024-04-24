@@ -5,3 +5,5 @@ s3fs
 seaborn
 matplotlib
 torch
+grad-cam
+wordcloud
